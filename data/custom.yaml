@@ -1,0 +1,6 @@
+train: C:/Users/tejus/PycharmProjects/yolov7_custom/yolov7/custom_dataset/train/images
+val: C:/Users/tejus/PycharmProjects/yolov7_custom/yolov7/custom_dataset/valid/images
+test: C:/Users/tejus/PycharmProjects/yolov7_custom/yolov7/custom_dataset/test/images
+
+nc: 1
+names: ['license']
