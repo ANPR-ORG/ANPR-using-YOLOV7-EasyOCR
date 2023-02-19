@@ -54,6 +54,9 @@ cd ..
 [`best.pt`](https://drive.google.com/file/d/1muS4VhL72di10Ob8-mHLmTz2cLDdz9Ug/view?usp=share_link)
 
 ## Inferencing on Data
+``` shell
+cd ANPR-using-YOLOV7-EasyOCR
+```
 On WebCam Livefeed:
 ``` shell
 #GPU
