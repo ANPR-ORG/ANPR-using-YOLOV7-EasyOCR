@@ -18,13 +18,39 @@ A combination of computer vision, machine learning, and image processing methods
     </a>
 </div>
 
-## Training
-### Clone Repository
+## Clone our Repository
 ```shell
 git clone https://github.com/ANPR-ORG/ANPR-using-YOLOV7-EasyOCR.git
+cd ANPR-using-YOLOV7-EasyOCR
 pip install -r requirements.txt
 ```
+## Downloading Dataset
+Create Directory
+``` shell
+mkdir custom_dataset
+cd custom_dataset
+```
+Install dataset along with annotations using roboflow
+``` shell
+!pip install roboflow
+from roboflow import Roboflow
+rf = Roboflow(api_key="mPmElqud1pnkGfoA7Emu")
+project = rf.workspace("college-dbbrk").project("anpr-x1a2o")
+dataset = project.version(5).download("yolov7")
+cd ..
+```
 
-
-## Trained Model
+## Downloading Trained Model
+Creating Directory
+``` shell
+mkdir models
+cd models
+```
+Downloading our Trained Model
+``` shell
+wget https://drive.google.com/file/d/1muS4VhL72di10Ob8-mHLmTz2cLDdz9Ug/view?usp=share_link
+cd ..
+```
 [`best.pt`](https://drive.google.com/file/d/1muS4VhL72di10Ob8-mHLmTz2cLDdz9Ug/view?usp=share_link)
+
+## Inferencing on Data
