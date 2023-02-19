@@ -22,7 +22,7 @@ git clone https://github.com/ANPR-ORG/ANPR-using-YOLOV7-EasyOCR.git
 cd ANPR-using-YOLOV7-EasyOCR
 pip install -r requirements.txt
 ```
-## Downloading Dataset
+## Download the Dataset
 Create Directory
 ``` shell
 mkdir custom_dataset
