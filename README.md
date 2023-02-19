@@ -54,3 +54,22 @@ cd ..
 [`best.pt`](https://drive.google.com/file/d/1muS4VhL72di10Ob8-mHLmTz2cLDdz9Ug/view?usp=share_link)
 
 ## Inferencing on Data
+On WebCam Livefeed:
+``` shell
+#GPU
+python detect.py --weights models/best.pt --conf 0.25 --img-size 640 --source 0 --device 0
+#CPU
+python detect.py --weights models/best.pt --conf 0.25 --img-size 640 --source 0 --device 'cpu'
+```
+On Image/Video:
+``` shell
+#GPU
+python detect.py --weights models/best.pt --conf 0.25 --img-size 640 --source <image_path/video_path> --device 0
+#CPU
+python detect.py --weights models/best.pt --conf 0.25 --img-size 640 --source <image_path/video_path> --device 'cpu'
+```
+## Using Streamlit
+``` shell
+cd ANPR-using-YOLOV7-EasyOCR
+streamlit run streamlit_app.py
+```
