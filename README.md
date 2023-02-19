@@ -13,9 +13,7 @@ Use these procedures to perform an ANPR using YOLOv7 and EasyOCR:
 
 A combination of computer vision, machine learning, and image processing methods are needed to solve the difficult problem of ANPR. The numerous variables involved must be carefully tuned and optimised. But, you may create a reliable and accurate ANPR system utilising YOLOv7 and EasyOCR.
 <div align="center">
-    <a href="./">
-        <img src="./figure/performance.png" width="79%"/>
-    </a>
+    <img src="./figure/performance.png" width="79%"/>
 </div>
 
 ## Clone our Repository
