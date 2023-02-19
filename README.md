@@ -38,13 +38,13 @@ dataset = project.version(5).download("yolov7")
 cd ..
 ```
 
-## Downloading Trained Model
+## Download Trained Model
 Creating Directory
 ``` shell
 mkdir models
 cd models
 ```
-Downloading our Trained Model
+Download our Trained Model
 ``` shell
 wget https://drive.google.com/file/d/1muS4VhL72di10Ob8-mHLmTz2cLDdz9Ug/view?usp=share_link
 cd ..
